@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadisticas COVID</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div> 
+<h1>COVID Estadistics</h1>
+
+<b>Date</b> <input id="inputFecha" type="date"/> <br/>
+
+<b>Country</b>
+<select id="selectPais">
+<option value="Germany">Germany</option>
+<option value="Spain">Spain</option>
+<br/>
+</select>
+<br/>
+
+<button id="btnCargar"> Load Statistics </button>
+<br/>
+
+<ul>
+
+   <li>hoy_confirmado:<span id="today_confirmed"></span></li>
+   <li> hoy_muertes:<span id="today_deaths"></span>   </li>
+   <li>hoy_pacientes_hospitalizados_con_síntomas:<span id="today_hospitalised_patients_with_symptoms"></span>   </li>
+   <li>cuidados_intensivos_hoy:<span id="today_intensive_care"></span>   </li>
+  
+
+</ul>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+   <script src="COVID.js"></script>
+    
+</body>
+</html>
